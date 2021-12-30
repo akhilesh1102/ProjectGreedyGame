@@ -155,4 +155,9 @@ class HomeFragment : BaseFragment<FragmentHomeBinding, HomeViewModel>() {
 
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        swipeTimer.cancel()
+    }
+
 }

@@ -14,8 +14,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true">
+        android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -100,7 +99,6 @@
                     android:layout_marginStart="@dimen/s18"
                     android:layout_marginTop="@dimen/s4"
                     android:max="10"
-                    android:rating="@{result.vote_average}"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/cd_img_logo"

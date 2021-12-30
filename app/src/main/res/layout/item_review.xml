@@ -88,7 +88,7 @@
             <TextView
                 android:id="@+id/txt_content"
                 style="@style/textLargeMedium"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/s12"
                 android:layout_marginTop="@dimen/s8"

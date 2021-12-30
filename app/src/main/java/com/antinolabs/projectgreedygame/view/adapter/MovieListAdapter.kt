@@ -21,6 +21,7 @@ class MovieListAdapter : ListAdapter<PopularMovie.Result, MovieListAdapter.Movie
         fun bind(item: PopularMovie.Result) {
             binding.apply {
                 result=item
+                ratMovie.rating=item.vote_average ?:0.0f
                 root.setOnClickListener {
                     val bundle =Bundle()
                     bundle.putInt("id",item.id)
