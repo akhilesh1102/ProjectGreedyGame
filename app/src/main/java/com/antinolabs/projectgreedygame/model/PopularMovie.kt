@@ -22,7 +22,7 @@ data class PopularMovie(
     val release_date: String,
     val title: String,
     val video: Boolean,
-    val vote_average: Float,
+    val vote_average: Float ?,
     val vote_count: Int
     )
 }
